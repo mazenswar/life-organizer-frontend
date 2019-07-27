@@ -1,7 +1,6 @@
-import React from "react";
-import CalendarPages from "./Components/Calendar";
-import dates from "./data";
-import "./App.scss";
+import React from 'react';
+import CalendarPages from './Components/Calendar';
+import './App.scss';
 
 class App extends React.Component {
   getMonth = monthName => {
